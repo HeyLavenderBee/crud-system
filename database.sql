@@ -11,6 +11,16 @@ create table users(
     status char(1)
 );
 
+-- *************************
+-- MUITO IMPORTANTE!!!!!!!!!!
+-- como nesse site, apenas os administradores podem criar usuários, é necessário um passo a mais:
+
+-- leia o README.md para conseguir entrar na conta de administrador, sem ela, você não
+-- conseguirá acessar o sistema completo.
+-- ou como nota, aqui está a senha do adm, caso não queira acessar o README.md
+-- senha: i@mfr0gDet3ctiv3
+-- *************************
+
 insert into users(
 username, name, email, password, is_first_time, user_type, status) 
 values
